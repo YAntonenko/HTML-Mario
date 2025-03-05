@@ -11,6 +11,22 @@
         Kasutaja: <input type="text" name="user" placeholder="max pikkus 6" maxlength="6"><br>
         Kursus: <input type="text" name="course" placeholder="max pikkus 3" maxlength="3"><br>
         Osakonna number: <input type="number" name="dep" min="1" step="1"><br>
+        Parool: <input type="password" name="password"><br>
+        Vali teenus:
+        <select name="service">
+            <option value="0.59">Odav 0.59€</option>
+            <option value="1.59">Keskmine 1.59€</option>
+            <option value="2.59">Kallis 2.59€</option>
+        </select><br>
+        Roll:<br>
+        <input type="radio" name="role" value="Admin">Admin<br>
+        <input type="radio" name="role" value="Mode">Mode<br>
+        <input type="radio" name="role" value="User">User<br>
+        Nõustun tingimustega: <input type="checkbox" name="agree"><br>
+        Enesetutvustus: <br>
+        <textarea name="bio" cols="30" rows="10"></textarea><br>
+        <input type="reset" value="Tühjenda väljad"><br>
+        <input type="submit" value="Saada"><br>
     </form>
 </body>
 </html>
